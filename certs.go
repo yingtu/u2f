@@ -86,4 +86,4 @@ func mustLoadPool(pemCerts []byte) *x509.CertPool {
 	return p
 }
 
-var roots = mustLoadPool([]byte(yubicoRootCert + entersektCert + neowaveCert + plugUpCert))
+var roots = mustLoadPool([]byte(yubicoRootCert))
